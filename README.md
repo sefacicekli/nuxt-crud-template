@@ -19,4 +19,16 @@ $ npm start
 $ npm run generate
 ```
 
+## Deploy to Heroku
+```bash
+heroku create
+heroku config:set NPM_CONFIG_PRODUCTION=false
+heroku config:set HOST=0.0.0.0
+heroku config:set NODE_ENV=production
+git init
+git add .
+git commit -a -m "first deployment"
+git push heroku master
+```
+
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
