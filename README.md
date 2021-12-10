@@ -1,4 +1,4 @@
-# kose-yazisi-uygulamasi
+# nuxt example universal supabase crud app
 
 > My kickass Nuxt.js project
 
