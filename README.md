@@ -1,4 +1,4 @@
-# nuxt example universal supabase crud app
+# nuxt universal crud app
 
 > Set your own supabase api keys from plugins/client.js
 
