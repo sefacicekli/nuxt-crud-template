@@ -11,8 +11,9 @@ export default {
     PostForm
   },
   methods: {
+    //firebase ile yapmak istersen
     // savePost(post){
-    //   axios.post("https://nuxt-example-deneme-default-rtdb.europe-west1.firebasedatabase.app/yazilar.json", post)
+    //   axios.post("firebaselink", post)
     //   .then(res => {
     //     console.log(res)
     //     this.$router.push("/admin")
