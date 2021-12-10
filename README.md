@@ -1,6 +1,6 @@
 # nuxt example universal supabase crud app
 
-> My kickass Nuxt.js project
+> Set your own supabase api keys from plugins/client.js
 
 ## Build Setup
 
