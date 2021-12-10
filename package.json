@@ -1,0 +1,24 @@
+{
+  "name": "kose-yazisi-uygulamasi",
+  "version": "1.0.0",
+  "description": "My kickass Nuxt.js project",
+  "author": "Gökhan Kandemir",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.28.5",
+    "axios": "^0.24.0",
+    "bootstrap-vue": "^2.21.2",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
